@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 
 import { history } from '../_helpers';
 import { PrivateRoute } from '../_components';
-import { UserProfilePage } from '../UserProfilePage';
 import { UserListPage } from '../UserListPage';
 import { UserDetailPage } from '../UserDetailPage';
 
@@ -26,9 +25,9 @@ class App extends React.Component {
                 <Router history={history}>
                     <div>
                         <PrivateRoute exact path="/" component={UserListPage} />
-                        <Route path="/user_profile" component={UserProfilePage} />
-                        <Route path="/user_list_page" component={UserListPage} />
-                        <Route path="/user_list_page/:name" component={UserDetailPage} />
+                        <Route exac path="/user_profile" component={UserProfilePage} />
+                        <Route exac path="/user_list_page" component={UserListPage} />
+                        <Route exac path="/users/:name" component={UserDetailPage} />
                     </div>
                 </Router>
             </div>

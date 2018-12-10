@@ -8,8 +8,8 @@ class UserProfilePage extends React.Component {
 
         this.state = {
             person: {
-                name: 'Jack-Edward Oliver',
-                biography: '26 year old Designer / Developer living in Stockholm. Originally from Oxford, England. Love to make stuff.',
+                name: 'Oliver Queen',
+                biography: 'The fastest man in the world. Originally from The Flash. Love to speed up.',
             },
             image: 'https://data.whicdn.com/images/224800842/large.jpg',
             quote: {

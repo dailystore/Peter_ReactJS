@@ -26,7 +26,7 @@ class UserListPage extends React.Component {
 
                 <div className={'form-group ' + !this.props.match.params.name ? 'display' : 'hide'}>
                     {topFive.map((item, index) =>
-                        <Link key={index} to={'/user_list_page/' + item} className="btn btn-link" > {item}</Link>
+                        <Link key={index} to={'/users/' + item} className="btn btn-link" > {item}</Link>
                     )}
                 </div>
 
