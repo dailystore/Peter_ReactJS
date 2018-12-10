@@ -6,6 +6,7 @@ import { history } from '../_helpers';
 import { PrivateRoute } from '../_components';
 import { UserListPage } from '../UserListPage';
 import { UserDetailPage } from '../UserDetailPage';
+import { UserProfilePage } from '../UserProfilePage';
 
 import './App.css';
 
